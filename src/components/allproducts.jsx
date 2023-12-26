@@ -48,4 +48,4 @@ function AllProducts() {
     )
 }
 
-     AllProducts;
+export default AllProducts;
