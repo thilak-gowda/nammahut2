@@ -1,0 +1,70 @@
+
+
+
+/* main heading */
+.mainHeading{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2% 0%;
+    text-transform: uppercase;
+}
+
+
+.indiamap{
+    width: 100%;
+   
+}
+
+rect{
+    fill: #FFFFFF;
+}
+
+path{
+    fill: #DBDBDB;
+}
+
+path:hover {
+    fill: red !important;
+    content: attr('lqldj;si') !important;
+
+  }
+
+
+
+
+.karnataka{
+    fill: #42D1B5;
+}
+
+.tn{
+    fill: #FF983B;
+}
+
+.kerala, .WB{
+    fill: #FFC639;
+}
+
+.AP, .delhi{
+    fill: #FF668B;
+}
+
+.telangna{
+    fill: #40D3E2;
+}
+
+.MH{
+    fill: #38c923;
+}
+
+/* about styling */
+
+.abtContent{
+    font-size: 17px;
+}
+
+.abtImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

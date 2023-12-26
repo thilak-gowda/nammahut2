@@ -1,0 +1,39 @@
+
+.footer{
+    background-color: #56cfe1;
+    color: white;
+}
+
+.footerLogo{
+    width: 15%;
+    display: block;
+    background-color: white;
+    margin: 0% auto;
+}
+
+.addressHeading{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-top: 2%;
+}
+
+.address{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+
+.Mobilenumber{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.callBtn{
+    fill: white;
+    font-size: 20px;
+    margin-right: 3%;
+}

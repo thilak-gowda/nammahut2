@@ -1,0 +1,91 @@
+.crd {
+    box-shadow: 0px 0px 20px #dae2d7;
+    border-radius: 10px;
+}
+
+.crd:hover {
+    box-shadow: 0px 0px 20px grey;
+}
+
+.prodImg {
+    width: 100%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.prodDet {
+    padding: 0% 5%;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productName {
+    font-family: 'Caveat', cursive;
+
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Ephesis', cursive; */
+    /* font-family: 'Heebo', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Satisfy', cursive; */
+
+    color: #ff914c;
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ourPrice {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mrp {
+    color: gray;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.addToCart {
+    text-decoration: none;
+    background-color: #ff914c;
+    padding: 0% 4%;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    margin: 4% auto;
+    text-align: center;
+}
+
+.cartIcon {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 4%;
+}
+
+.cartIcon path {
+    fill: white !important;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+#quantity {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+

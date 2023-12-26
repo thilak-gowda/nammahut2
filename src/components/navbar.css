@@ -1,0 +1,67 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logoBrand {
+    width: 40%;
+
+}
+
+.logo {
+    width: 40%;
+    height: 50px;
+    background-color: grey;
+}
+
+.nav-link{
+    font-weight:700 ;
+}
+
+
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+    margin-top: 200px;
+  }
+
+.cartlogo {
+    font-size: 30px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    
+}
+
+.cartSec {
+    position: relative;
+}
+
+.cartlogo path {
+    fill: #808080!important;
+}
+
+.totProd {
+    position: absolute;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 700;
+   left: 10px;
+   top: 0px;
+}
+
+
+/* dropdown */
+
+

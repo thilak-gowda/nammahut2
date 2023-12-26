@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+// import IndiaMap from './components/indiamap'
 
-function App() {
+// function App() {
+//   return (
+//     <div className="App">
+//       <IndiaMap />
+//     </div>
+//   );
+// }
+
+// export default App;
+import React from "react";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import IndiaMap from "./components/indiamap";
+import About from "./components/about";
+import Navsec from "./components/navbar";
+import AllProducts from "./components/allproducts";
+
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+function NavBar() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Navbar">
+      
+      <Router>
+      <Navsec />
+        <Routes>
+          <Route path="/" element={<IndiaMap />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/allproducts" element={<AllProducts />} />
+        </Routes>
+      </Router>
+
     </div>
   );
 }
 
-export default App;
+export default NavBar;
